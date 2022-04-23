@@ -1,5 +1,3 @@
-
-
 <!-- Navbar -->
 <nav class="main-header navbar navbar-expand navbar-info navbar-i" style="background-color:#27AAE1" >
   <!-- Left navbar links -->
@@ -155,23 +153,35 @@
 <!-- /.navbar -->
 
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark- elevation-4" style="background-color:#024263f1">
-  <!-- Brand Logo -->
-  <a href="#" class="brand-link">
-    <img src="dist/img/bosy.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-         style="opacity: .8">
-    <span class="brand-text font-weight-light">Seller Panel</span>
-  </a>
-
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <!-- Sidebar user panel (optional) -->
-    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-      <div class="image">
-        <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+<aside class="main-sidebar sidebar-dark-prima elevation-4" style="background-color:#024263f1">
+    <!-- Brand Logo -->
+    <a href="#" class="brand-link">
+      <img src="dist/img/bosy.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">Seller Panel</span>
+    </a>
+  
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">{{Auth::user()->fname}}</a>
+        </div>
       </div>
-      <div class="info">
-        <a href="#" class="d-block">{{Auth::user()->fname}}</a>
+
+    <!-- SidebarSearch Form -->
+    <div class="form-inline">
+      <div class="input-group" data-widget="sidebar-search">
+        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search" style="background-color:#024263f1">
+        <div class="input-group-append">
+          <button class="btn btn-sidebar">
+            <i class="fas fa-search fa-fw"></i>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -488,8 +498,13 @@
       </ul>
     </nav>
     <!-- /.sidebar-menu -->
-    
   </div>
   <!-- /.sidebar -->
-  
 </aside>
+
+
+
+
+
+
+

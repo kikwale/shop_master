@@ -203,10 +203,10 @@
                                                 <!-- /.card -->
                                                </div>
 
-                                               
+                                               <h5 class="card-title">Shelves &nbsp;  <a href="#" class="btn btn-info btn-sm">Barcode</a></h5><br><br>
                                              </div>
                                             <div class="card-tools">
-                                           
+                                              
                                               {{-- <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                                 <i class="fas fa-minus"></i>
                                               </button>
@@ -214,12 +214,11 @@
                                               <button type="button" class="btn btn-tool" data-card-widget="remove">
                                                 <i class="fas fa-times"></i>
                                               </button> --}}
-                                            </div><br>
-                                            <h5 class="card-title">Shelves &nbsp;  <a href="#" class="btn btn-info btn-sm">Barcode</a></h5>
+                                            </div>
+                                           
                                           </div>
                                         
                                             <div class="card-bod">
-                                              
                                               <table id="example1" class="table table-bordered table-striped">
                                                 <thead>
                                                 <tr>
